@@ -1,0 +1,11 @@
+  My public void AddDependency(string s, string t) it was not right 
+  My dependees read t but Ichanged it to dependents and also I add new extention "has"
+  to help my class for adding method to string. 
+  
+  //check for a given string to have dependents or dependees based on user specification.
+  return true if string has specified dictionary, false otherwise. 
+  
+  public static bool has(this string s, Dictionary<string, HashSet<string>> d)
+  
+        {
+            return d.ContainsKey(s);
